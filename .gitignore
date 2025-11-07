@@ -1,0 +1,35 @@
+# Security - never commit these
+*.env
+.env*
+*.pem
+*.key
+*token*
+*secret*
+credentials.json
+id_rsa*
+id_ed25519*
+id_ecdsa*
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
